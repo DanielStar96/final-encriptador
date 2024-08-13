@@ -1,0 +1,133 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Color de fondo de reserva en caso de que la imagen no cargue */
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('img/hacker-3655668_1280.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+  /* Contenedor principal */
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    width: 100%;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  /* Estilo del encabezado */
+  h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #4a90e2;
+    text-align: center;
+   
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #4a90e2;
+    text-align: center;
+
+  }
+  /* Estilo para las áreas de texto */
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilo para el botón de copiar */
+  button.copy-button {
+    background-color: #50e3c2;
+  }
+  
+  button.copy-button:hover {
+    background-color: #34d1b7;
+  }
+  
+  /* Estilo de los botones de acción */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  button:hover {
+    background-color: #357abd;
+   
+  }
+  footer {
+    background-color: #4a90e2;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    position: relative;
+    margin-top:auto; /* Asegura que el footer esté siempre en la parte inferior */
+  }
+  
+  footer p {
+    margin: 0px;
+    font-size: 14px;
+    margin-top: auto;
+  }
+  
+  .footer-logo img {
+    max-width: 50px; /* Ajusta el tamaño máximo del logo */
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0%; /* Añade espacio debajo del logo */
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block; /* Asegura que el enlace ocupe toda la línea */
+    margin-top: 10px; /* Añade espacio encima del enlace */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+  }
+  .container{
+    min-height: 100px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
